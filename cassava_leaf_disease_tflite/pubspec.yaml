@@ -1,0 +1,28 @@
+name: cassava_leaf_disease_tflite
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: 
+  tflite: 
+  image_picker:  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/cassava_plant_cnn.tflite
+    - assets/cassava_plant_cnn.txt
